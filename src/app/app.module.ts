@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 
 import { ROUTES } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     NoimagePipe,
     NavbarComponent,
     LoadingComponent,
-    CardsComponent
+    CardsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
